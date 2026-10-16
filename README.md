@@ -62,6 +62,12 @@ For real-profile verification, use a disposable Chrome profile and synthetic tes
 
 See [TODO.md](TODO.md) for open work and design decisions, and [VERIFICATION.md](VERIFICATION.md) for the current verification status.
 
+## License
+
+Licensed under the [Apache License, Version 2.0](LICENSE). Copyright 2026 RJ Javier.
+
+Provided as-is, with no warranty and no liability. The authors do not endorse, support, or condone unauthorized activity.
+
 ## Authorized and responsible use
 
 This tool audits your own browser profile on sites you are legitimately signed in to. Respect website terms of service and applicable law; do not use the export mechanism to inventory sessions on devices you do not own or have permission to audit.
