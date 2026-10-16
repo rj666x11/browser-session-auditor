@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Browser Session Auditor",
+  "version": "0.1.0",
+  "minimum_chrome_version": "132",
+  "description": "Read-only, local browser session evidence and clearing-impact audit. Never displays credential values.",
+  "permissions": [
+    "cookies",
+    "browsingData",
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "optional_host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "incognito": "not_allowed",
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'"
+  }
+}
